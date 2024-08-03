@@ -33,4 +33,29 @@
     margin: 0;
     color: #fff;
   }
+  /* Body.css */
+.button-container {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+
+  }
+  
+  button {
+    background-color:#bcc6d1;
+    border: none;
+    color: rgb(66, 110, 123);
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    color: blanchedalmond;
+  }
+  
   

@@ -6,13 +6,7 @@ function Header() {
         <header className="header">
         <img src="starwars_portada.png" className="header-img" alt="logo" />
         </header>
-        <nav className='nav'>
-            <ul className='nav'>
-                <li><a href="#" className='nav'>Planetas</a></li>
-                <li><a href="#" className='nav'>Personajes</a></li>
-                <li><a href="#" className='nav'>Species</a></li>
-            </ul>
-        </nav>
+        <nav className='nav'></nav>
     </div>
     )
 }

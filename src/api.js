@@ -12,3 +12,11 @@ export async function getApiPlanets() {
     return datosPlanetas;
 
 }
+
+export async function getApiSpecies() {
+    const response = await fetch('https://www.swapi.tech/api/species');
+    const datosSpecies = response.json();
+
+    return datosSpecies;
+
+}
