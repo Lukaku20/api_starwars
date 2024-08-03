@@ -1,6 +1,56 @@
 .App {
   text-align: center;
 }
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;  
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+/* Header.css */
+.header{
+  position: relative;
+  text-align: center;
+  overflow: hidden; /* Para recortar el contenido que se sale del contenedor */
+  background-color: #282c34;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header-image {
+  width: 100%; /* Ajusta la imagen al ancho completo del contenedor */
+  height: 200px; /* Establece la altura deseada */
+  /*object-fit: cover; /* Recorta y ajusta la imagen para que cubra el contenedor */
+  opacity: 0.8; /* Aplica transparencia */
+  border-radius: 10px; /* Bordes redondeados */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  // Añadir sombra */
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ddd;
+}
 
 .App-logo {
   height: 40vmin;
